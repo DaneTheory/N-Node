@@ -1,0 +1,16 @@
+{
+  "name": "@n-node/constants",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": false,
+  "description": "Shared constants for use across N-Node's various workspaces.",
+  "source": "./src/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "scripts": {
+  	"dev": "microbundle --target 'node' watch",
+  	"build": "microbundle --target 'node'",
+  	"test": "echo 'TODO: TEST SCRIPT'"
+  }
+}

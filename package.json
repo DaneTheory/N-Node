@@ -4,14 +4,19 @@
   "license": "MIT",
   "private": true,
   "workspaces": {
-  	"packages": [
-  	  "workspaces/**/*"
-  	]
+    "packages": [
+      "workspaces/**/*"
+    ]
   },
   "scripts": {
-    "dev": "echo 'TODO DEV SCRIPT'"	
+    "dev": "echo 'TODO DEV SCRIPT'"
   },
   "devDependencies": {
-  	
+    "concurrently": "^6.1.0",
+    "esm": "^3.2.25",
+    "microbundle": "^0.13.0",
+    "nps": "^5.10.0",
+    "ntl": "^5.1.0",
+    "ultra-runner": "^3.10.5"
   }
 }

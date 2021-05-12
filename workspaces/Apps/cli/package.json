@@ -1,0 +1,24 @@
+{
+  "name": "@n-node/cli",
+  "version": "1.0.0",
+  "description": "N-Node's CLI app. Everything n does, done in NodeJS.",
+  "license": "MIT",
+  "private": false,
+  "source": "./bin/cli.js",
+  "main": "./build/cli.js",
+  "module": "./build/cli.js",
+  "bin": {
+    "n-node": "./build/cli.js",
+    "nn": "./build/cli.js"
+  },
+  "dependencies": {
+  	"@n-node/constants": "1.0.0"
+  },
+  "scripts": {
+  	"dev": "microbundle --target 'node' watch",
+  	"build": "microbundle --target 'node'",
+  	"test": "echo 'TODO: TEST SCRIPT'",
+  	"n-node": "n-node",
+  	"nn": "nn"
+  }
+}
